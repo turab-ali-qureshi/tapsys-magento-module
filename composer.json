@@ -1,0 +1,24 @@
+{
+  "name": "tapsys/module-checkout",
+  "description": "Tapsys Checkout Integration",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "Turab Ali Qureshi",
+        "email": "turabaq@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Tapsys\\Checkout\\": ""
+      }
+    }
+}
